@@ -23,5 +23,6 @@ dentro da pasta. Ou você pode copiar o arquivo [bin](https://github.com/hayukim
 ` chmod +x ./popupchat_twitch && sudo cp ./popupchat_twitch /usr/bin/`
 
 
-OBS:: Este programa é apenas um "atalho" para o comando `chromium --chrome-frame --window-size=400,640 --app=https://www.twitch.tv/popout/{nome_do_canal}/chat`
+
+OBS:: Este programa é apenas um "atalho" para o comando ```chromium --chrome-frame --window-size=400,640 --app=https://www.twitch.tv/popout/{nome_do_canal}/chat```
 
