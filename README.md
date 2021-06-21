@@ -16,6 +16,6 @@ Para usar via linha de comando, pode escrever
 `
 ./popupchat_twitch {nome_do_canal}
 `
-dentro da pasta. Ou você pode copiar o arquivo [bin](https://github.com/hayukimori/TwitchChatChromium/releases/) para `/usr/bin/` para usar sem estar na pasta:
+dentro da pasta. Ou você pode copiar o arquivo [bin](https://github.com/hayukimori/TwitchChatChromium/releases/download/v_01/popupchat_twitch) para `/usr/bin/` para usar sem estar na pasta:
 
-`sudo cp ./popupchat_twitch /usr/bin/`
+` chmod +x ./popupchat_twitch && sudo cp ./popupchat_twitch /usr/bin/`
