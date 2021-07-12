@@ -25,3 +25,8 @@ hayukimori@pasukonhouse:~$ popupchat_twitch hayukimori
 
 ### Exemplo
 ![](src/preview.png)
+
+
+### Desinstalação
+
+Para desinstalar, basta rodar o mesmo script de instalação. Ao pedir (Y/n). Clique em Enter e o script desinstalará
