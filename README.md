@@ -1,28 +1,27 @@
 # TwitchChatChromium
 
-
-Este é um script simples em python pra facilitar o popup de chats da twitch. O script usa chromium;
-
-
+É um script simples que abre uma janela do chromium no chat do canal desejado da Twitch
 
 ### Requisitos
--Chromium 
--Sistema UNIX
+- Python >= 3.6
+- Chromium
+- Sistema UNIX
 
-Você pode instalar o chromium com:
-`sudo apt-get install chromium-browser`
+### Instalação
+É possível instalar rodando o arquivo `install.py`, desta maneira:
 
+```
+$ python3 install.py
+```
 
 ### Uso
-Para usar via linha de comando, pode escrever
-`
-./popupchat_twitch {nome_do_canal}
-`
-dentro da pasta. Ou você pode copiar o arquivo [bin](https://github.com/hayukimori/TwitchChatChromium/releases/download/v_01/popupchat_twitch) para `/usr/bin/` para usar sem estar na pasta:
 
-` chmod +x ./popupchat_twitch && sudo cp ./popupchat_twitch /usr/bin/`
+Para usar, apenas rode `popupchat_twitch` e o nome do canal
 
+Exemplo:
+```
+hayukimori@pasukonhouse:~$ popupchat_twitch hayukimori
+```
 
-
-OBS:: Este programa é apenas um "atalho" para o comando ```chromium --chrome-frame --window-size=400,640 --app=https://www.twitch.tv/popout/{nome_do_canal}/chat```
-
+### Exemplo
+![]("./src/preview.png")
