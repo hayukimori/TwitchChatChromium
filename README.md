@@ -24,4 +24,4 @@ hayukimori@pasukonhouse:~$ popupchat_twitch hayukimori
 ```
 
 ### Exemplo
-![](scr/preview.png)
+![]("scr/preview.png")
